@@ -10,10 +10,6 @@
 - front-end : [관련 기능 확인](https://github.com/kkh0331/front-end)
 - back-end : [관련 기능 확인](https://github.com/kkh0331/back-end)
 
-# 프로젝트 구조
-<img width="402" alt="스크린샷 2023-07-23 오후 6 18 17" src="https://github.com/kkh0331/Library_Detection/assets/99806443/8c66314e-da8c-4e78-bcf2-139df0f28485"><br>
-IP카메라의 영상을 서버에서 프레임 단위로 받아 자체 구축한 YOLOv5 모델로 분석 후 좌석 상태를 정의하여 그 결과값을 DB에 쌓아 상황에 따라 알맞은 처리를 진행합니다.
-
 # Functions
 - 예약 및 반납 기능
 - 사석화 및 공석 탐지 후 자동 반납 기능
@@ -24,12 +20,5 @@ IP카메라의 영상을 서버에서 프레임 단위로 받아 자체 구축�
   - 미리 설정한 count 이상 쌓이면 자동 반납 기능 수행
 
 # 프로젝트 Architecture
-Front-end<br>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/><br>
-Back-end<br>
-<img src="https://img.shields.io/badge/django-092E20?style=flat-square&logo=django&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> <br>
-DB<br>
-<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=SQLite&logoColor=white"/><br>
-Cloud & Hosting : Local Host 이용<br>
-Tools<br>
-<img src="https://img.shields.io/badge/PyCharm-000000?style=flat-square&logo=PyCharm&logoColor=white"/><br>
+<img width="402" alt="스크린샷 2023-07-23 오후 6 18 17" src="https://github.com/kkh0331/Library_Detection/assets/99806443/8c66314e-da8c-4e78-bcf2-139df0f28485"><br>
+IP카메라의 영상을 서버에서 프레임 단위로 받아 자체 구축한 YOLOv5 모델로 분석 후 좌석 상태를 정의하여 그 결과값을 DB에 쌓아 상황에 따라 알맞은 처리를 진행합니다.
