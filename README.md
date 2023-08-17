@@ -7,8 +7,8 @@
 - Main Page Capture Image<br>
 <img width="443" alt="스크린샷 2023-07-23 오후 6 13 47" src="https://github.com/kkh0331/Library_Detection/assets/99806443/3e2b1503-3265-4009-87f2-54dce86ed426"><br>
 [시연영상을 보실려면 여기를 클릭해주세요](https://youtu.be/Vsal5Zp8qE0)
-- front-end : [관련 기능 확인](https://github.com/kkh0331/front-end)
-- back-end : [관련 기능 확인](https://github.com/kkh0331/back-end)
+- 업데이트된 코드(멀티로 구현되게 제작되었음)는 위 영상과 다름
+- 영상 및 모델은 용량제한으로 인하여 업로드하지 않았음
 
 # Functions
 - 예약 및 반납 기능
