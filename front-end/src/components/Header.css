@@ -1,0 +1,17 @@
+.top_nav {
+    background-color: #991714;
+    border-radius: 0;
+    margin: 0;
+}
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    padding-left: 10%;
+    max-height: 15%;
+}
+p.text-nav {
+    color : white;
+    font-weight: 700;
+    font-size:x-large;
+}

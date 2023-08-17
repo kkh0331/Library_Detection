@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.all {
+  background-color: #342D2D;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.video {
+  background-color: #342D2D;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*height: 100vh;*/
+  font-family: "Lato", sans-serif;
+  margin-left: 13%;
+}
+
+.video-streaming {
+  width: 100%;
+}
+
+
+.library-selection {
+  background-color: #342D2D;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+  margin-left: 13%;
+  margin-right: 0%;
+}
+
+.library-container {
+  margin: 20px 0;
+}
+
+.container {
+  perspective: 1000px;
+  margin-bottom: 30px;
+}
+
+.stu-num-btn {
+  border: none;
+  height: 50%;
+}
+
+.seat {
+  background-color: #444451;
+  height: 26px;
+  width: 32px;
+  margin: 3px;
+  font-size: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 15px;
+  color: black;
+  box-shadow: 0;
+  border: none;
+}
+
+.seat.selected {
+  background-color: green;
+}
+
+.seat.sold {
+  background-color: #fff;
+}
+
+.seat:nth-of-type(3) {
+  margin-right: 18px;
+}
+
+.seat:nth-last-of-type(3) {
+  margin-left: 18px;
+}
+
+.seat:not(.sold):hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.showcase .seat:not(.sold):hover {
+  cursor: default;
+  transform: scale(1);
+}
+
+.showcase {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #777;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.showcase li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+.showcase li small {
+  margin-left: 2px;
+}
+
+.row {
+  display: flex;
+}
+
+.screen {
+  background-color: #fff;
+  height: 120px;
+  width: 100%;
+  margin: 15px 0;
+  transform: rotateX(-48deg);
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+}
+
+p.text{
+    margin: 5px 0;
+}
+
+p.text span{
+    color: rgb(158, 248, 158);
+}
+
+.selection {
+  font-family: "Lato", sans-serif;
+  border-radius: 6%;
+  margin-top: 2%;
+  padding: 2% 15%;
+  align-content: center;
+}
+
+.url {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  align-content: center;
+}
+
+.ip-input {
+  height: 50%;
+  margin-left: 5%;
+  width: 82%;
+}
+
+.url-button {
+  height: 50%;
+  font-weight: 500;
+  margin-left: 1%;
+}
