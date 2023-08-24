@@ -13,9 +13,9 @@
 # 프로젝트 진행한 순서
 1. 프로젝트 기획
 2. 훈련데이터 수집을 위해 영상 촬영
-3. data-analysis > video_to_image.ipynb을 활용해 영상을 이미지 데이터로 변환
+3. video_to_image.ipynb을 활용해 영상을 이미지 데이터로 변환
 4. labelImg.py을 활용해 변환된 이미지 데이터 라벨링 작업 진행
-5. data-analysis > Custom_Yolov5_training.ipynb을 활용해 모델 학습
+5. Custom_Yolov5_training.ipynb을 활용해 모델 학습
 6. 개선된 공과대학 열람실 예약 시스템 서비스 개발
 
 # Functions
@@ -23,7 +23,7 @@
 - 사석화 및 공석 탐지 후 자동 반납 기능
   - front-end에서 5초마다 back-end로 이미지 전송
   - back-end에서 받아온 이미지로 자체 구축한 YOLOv5 모델 돌림
-  - 위의 결과값과 고정으로 넣은 좌석 좌표를 가지고 좌석 상태 정의
+  - 위의 결과값과 고정으로 넣은 좌석 좌표(fixed_seat_bbox.ipynb 이용)를 가지고 좌석 상태 정의
   - 정의된 좌석 상태를 DB에 저장함
   - 미리 설정한 count 이상 쌓이면 자동 반납 기능 수행
 
